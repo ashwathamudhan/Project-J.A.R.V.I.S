@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #620a13;
+    color: #ffd700;
+    text-align: center;
+    
+}
+
+header {
+   
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    border-bottom: 5px solid #e0a800;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #e0a800;
+    text-shadow: 0 0 10px #ff4500;
+}
+.welcome-message{
+    background-image: url('assets/images/jarvis-logo-.jpeg');
+    display: block; 
+    margin: 0 auto;
+    padding: 20px 0;  
+    height: 300px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0a800;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
+}
+
+/* Sections */
+.section {
+    padding: 50px 20px;
+    
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #e0a800;
+    text-shadow: 0 0 10px #ff4500;
+}
+
+/* Movies Section */
+.movie {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.movie img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    border: 3px solid #ff4500;
+    box-shadow: 0 0 15px #e0a800;
+    transition: transform 0.3s ease;
+}
+
+.movie img:hover {
+    transform: scale(1.1);
+}
+
+.movie h3 {
+    display: block;
+    margin-bottom: 15px;
+    max-width: 100%;
+    font-size: 24px;
+    height: auto;
+     color: #e0a800;
+    text-shadow: 0 0 10px #ff4500;
+}
+
+.movie p {
+    display: block;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 500px;
+    
+}
+
+.movie a {
+    display: block;
+    margin-top: 10px;
+    color: #e0a800;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #FFD700;
+    transition: transform 0.3s ease;
+}
+
+.movie a:hover {
+    color: #ff4500;
+    transform: scale(1.05);
+}
+
+
+/* Gallery Section */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    gap: 120px;
+    padding: 20 20px;
+}
+
+.gallery-grid img {
+    width: 350px;
+    height: 216px;
+    border: 5px solid #FFD700; /* Gold */
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Videos Section */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-container iframe {
+    border: 3px solid #FFD700; /* Gold */
+    width: 350px;
+    height: 197px;
+}
+
+/* Footer */
+footer {
+    background-color: #a62727; /* Red */
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #FFD700; /* Gold */
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: #FFD700; /* Gold */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #fff;
+}
+.custom-line {
+    border: 0;
+    height: 5px;
+    background-color: #e0a800; /* Gold color */
+    margin: 20px 0;
+}
+
